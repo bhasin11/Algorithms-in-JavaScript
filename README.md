@@ -12,11 +12,6 @@ In case you want to prepare yourself for a job interview, or just need access to
 | <b>Keyboard Row</b>  <br>  Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American keyboard.               | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/temp/src/findWords.js)                               |Easy|
 | <b>Fizz Buzz</b>  <br>  Write a program that outputs the string representation of numbers from 1 to n. But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.               | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/temp/src/fizzBuzz.js)                               |Easy|
 | <b>Reverse String</b>  <br>  Write a function that takes a string as input and returns the string reversed.               | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/temp/src/reverseString.js)                               |Easy|
-
-
-
-
-
-
-
-
+| <b>Island Perimeter</b>  <br>You are given a map in form of a two-dimensional integer grid where 1 represents land and 0 represents water. Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells). The island doesn't have "lakes" (water inside that isn't connected to the water around the island). One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.               | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/temp/src/islandPerimeter.js)                               |Easy|
+| <b>Nim Game</b>  <br>You are playing the following Nim Game with your friend: There is a heap of stones on the table, each time one of you take turns to remove 1 to 3 stones. The one who removes the last stone will be the winner. You will take the first turn to remove the stones. Both of you are very clever and have optimal strategies for the game. Write a function to determine whether you can win the game given the number of stones in the heap.               | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/temp/src/canWinNim.js)                               |Easy|
+| <b>Max Consecutive Ones</b>  <br>Given a binary array, find the maximum number of consecutive 1s in this array.               | [Click](https://github.com/bhasin11/Algorithms-in-JavaScript/blob/temp/src/findMaxConsecutiveOnes.js)                               |Easy|
