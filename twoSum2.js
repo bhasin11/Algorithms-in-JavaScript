@@ -1,13 +1,35 @@
-const twoSum = (numbers, target) => {
-  let table = new Map()
-  for (let i = 0; i < numbers.length; i++){
-    if (table.has(numbers[i])) {
-      return [table.get(numbers[i]) + 1, i + 1]
+/**
+ * @param {number[]} numbers
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(numbers, target) {
+    
+    /*
+     * The approach is to use two pointers, one starting from
+     * left side of the array and other from the end. Add the
+     * array values of both pointers and check
+     *      > if sum is equal to target, return an array with
+     *        both values.
+     *      > else if sum is greater than target, decrement
+     *        right pointer by 1.
+     *      > else increment left pointer by 1.
+     * Keep iterating, until left pointer is lesser than 
+     * right pointer. Since, it is mentioned that there is 
+     * always one solution, we will always get a result.
+     */
+    
+    
+    var left = 0, right = numbers.length-1;
+    
+    while(left < right){
+        if(numbers[left] + numbers[right] == target){
+            var result = [];
+            result.push(left + 1);
+            result.push(right + 1);
+            return result;
+        }
+        if(numbers[left] + numbers[right] > target) right--;
+        else left++;
     }
-    table.set((target - numbers[i]), i)
-  }
-  return 'Not Found'
-}
-
-const numbers = [2,3,4]
-console.log(twoSum(numbers, 6))
+};
