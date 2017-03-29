@@ -22,10 +22,12 @@ var missingNumber = function(nums) {
 };
 
 /*
-var missing = nums.length == 1 ? 1 : nums.length*(nums.length+1)/2;
+var missingNumber = function(nums) {
+    var missing = nums.length == 1 ? 1 : nums.length*(nums.length+1)/2;
 
-for(var i=0;i<nums.length;i++){
-    missing -= nums[i];
-}
-return missing;
+    for(var i=0;i<nums.length;i++){
+        missing -= nums[i];
+    }
+    return missing
+};
 */
