@@ -6,10 +6,12 @@ var missingNumber = function(nums) {
     
     /*
      * The approach is to XOR values of the array and all
-     * indexes of an array together. We also should consider
-     * to XOR the length of the input array as well. Once we
-     * iterate through the entire array elements, we will 
-     * only be left with the missing value.
+     * indexes of the array together. We should aslo XOR
+     * length of the input array as well as that can be
+     * one of the values in the array as well. Once we
+     * iterate through the entire array elements and apply
+     * XOR operations, we will only be left with the 
+     * missing value.
      */
      
     var missing = nums.length;
